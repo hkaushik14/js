@@ -60,3 +60,24 @@ const myFunctiion = function(){
 console.log(typeof myArray);
 console.log(typeof myObj);
 console.log(typeof myFunctiion);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive) value vs heap (non-primitive) REREFERENCE TYPE
+let myyoutubename = "harshkaushik494"
+let anothername = myyoutubename
+anothername = "harshkaushik"
+
+console.log(anothername);
+console.log(myyoutubename);
+
+let userOne = {
+    email:"user@gmail.com",
+    upi: "userid@okaxis"
+}
+
+let userTwo = userOne
+userTwo.email = "user2@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
