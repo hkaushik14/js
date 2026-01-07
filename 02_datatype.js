@@ -14,5 +14,4 @@ let state; // undefined => value not assigned\
 
 
 //object => key-value pairs
-
-console.log(typeof name);
+console.log(typeof age);
