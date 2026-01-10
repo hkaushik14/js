@@ -47,3 +47,36 @@ console.log(Object.keys(adminUser)); // [ 'id', 'email', 'isAdmin' ]
 
 console.log(tinderUser.hasOwnProperty('id')); // true
 
+
+
+//Objects destructuring and JSON API
+
+const course = {
+    coursename: 'JavaScript',
+    price: 999,
+    courseInstructor: 'Harsh Kaushik'
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course;
+console.log(instructor); // Harsh Kaushik
+
+
+// const navbar = ({company}) => {
+// }
+// navbar(company = "hitest")
+// JSON : JavaScript Object Notation
+
+// {
+//     name: "Harsh",
+//     coursenme: "JavaScript",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
