@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai with code</title>
+</head>
+<body style= "font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px;">
+    <!-- <div class="container">
+        <h2>Chai with Code</h2>
+        <p>Enjoy coding with a cup of chai!</p>
+    </div> -->
+    
+</body>
+<script>
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = 'main';
+    div.id = Math.round(Math.random()*10+1);
+    div.setAttribute("title", "This is a chai div");
+    div.style.backgroundColor = 'lightyellow';  
+    div.style.padding = '10px';
+    // div.innerHTML = `
+    //     <h2>Chai with Code</h2>
+    //     <p>Enjoy coding with a cup of chai!</p>
+    // `;
+    const addText = document.createTextNode("Enjoy coding with a cup of chai!");
+    div.appendChild(addText);
+
+    document.body.appendChild(div);
+</script>
+</html>
