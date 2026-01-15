@@ -42,4 +42,4 @@ for (const key in myObject){
 const programming = ["JavaScript", "Python", "Java", "C++"]
     for(const keyq in programming){
         console.log(keyq);
-    }    ``
+    }    

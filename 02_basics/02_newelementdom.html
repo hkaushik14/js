@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM </title>
+</head>
+<body style ="font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px;"    >
+    <div class = "weekday">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>  
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+        <div class="day">Saturday</div>
+    </div>
+</body>
+<script>
+    const weekday = document.querySelector('.weekday');
+    // console.log(weekday);
+    // console.log(weekday.children);
+    // console.log(weekday.children[2].innerHTML);
+
+    // for(let i=0; i<weekday.children.length; i++){
+    //     console.log(weekday.children[i].innerHTML);
+    // }
+    // weekday.children[3].style.backgroundColor = 'lightblue'; 
+    // console.log(weekday.firstElementChild);
+    // console.log(weekday.lastElementChild);
+
+    dayone = document.querySelector(' .day')
+    // console.log(dayone);
+    // console.log(dayone.parentElement); 
+    // console.log(dayone.nextElementSibling);
+
+    console.log("NODES: ", weekday.childNodes); // shows all nodes including text nodes
+
+
+</script>
+</html>
