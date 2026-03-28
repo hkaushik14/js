@@ -13,3 +13,4 @@ console.log(sum); // Output: 10
 // console.log(mytotal);
 
 
+
