@@ -3,7 +3,6 @@ let accountEmail = "harshkaushik494@gmail.com"
 var accountPassword = "0987"
 accountCity = "Roorkee"
 let accountstate
-
 // accountId = 54321 // not allowed
 accountEmail = "harsh@gmail.com"
 accountPassword = "6789"
